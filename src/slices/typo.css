@@ -1,0 +1,89 @@
+.xxs {
+    font-size: 7px !important;
+    line-height: 7px;
+}
+
+.xs {
+    font-size: var(--font-xs) !important;
+    line-height: calc(var(--font-xs));
+}
+
+.sm {
+    font-size: var(--font-sm) !important;
+    line-height: calc(var(--font-sm));
+}
+
+.md {
+    font-family: var(--tf-heading);
+    font-size: var(--font-md) !important;
+    line-height: calc(var(--font-md));
+}
+
+.lg {
+    font-family: var(--tf-heading);
+    font-size: var(--font-lg) !important;
+    line-height: calc(var(--font-lg));
+}
+
+.xl {
+    font-family: var(--tf-heading);
+    font-size: var(--font-xl) !important;
+    line-height: calc(var(--font-xl));
+}
+
+.xxl {
+    font-family: var(--tf-heading);
+    font-size: var(--font-xxl) !important;
+    line-height: calc(var(--font-xxl));
+}
+
+.lh-xs {
+    line-height: calc(var(--font-xs) * 1.5);
+}
+
+.lh-sm {
+    line-height: calc(var(--font-sm) * 1.5);
+}
+
+.lh-md {
+    line-height: calc(var(--font-md) * 2);
+}
+
+.center {
+    text-align: center !important;
+}
+
+.right {
+    text-align: right !important;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.lower {
+    text-transform: lowercase;
+}
+
+.bold {
+    font-weight: 700;
+    font-family: var(--tf-bold) !important;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    .right-xs {
+        text-align: right !important;
+    }
+
+    .left-xs {
+        text-align: left !important;
+    }
+
+    .center-xs {
+        text-align: center !important;
+    }
+}

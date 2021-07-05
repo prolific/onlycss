@@ -1,0 +1,84 @@
+:root {
+    --font-xs: 10px;
+    --font-sm: 12px;
+    --font-md: 16px;
+    --font-lg: 18px;
+    --font-xl: 22px;
+    --font-xxl: 30px;
+
+    --dimen-xs: 4px;
+    --dimen-sm: 8px;
+    --dimen-md: 16px;
+    --dimen-lg: 22px;
+    --dimen-xl: 32px;
+    --dimen-xxl: 38px;
+
+    --height-header: 35px;
+    --width-sidebar: 135px;
+
+    --color-link: #1616fc;
+    --color-link-visited: #5419a1;
+    --color-muted: #969696;
+    --color-error: #db1111;
+    --color-text: #131313;
+    --color-line: #e2e0dc;
+    --color-line-dark: #969696;
+
+    --color-white: #fff;
+    --color-white-dark: #fafafa;
+    --color-grey-light: #f0f0f0;
+    --color-grey: #f1f0f5;
+    --color-grey-dark: #434343;
+    --color-blue: #37b0e9;
+    --color-blue-dark: #262d33;
+    --color-orange: #f58b29;
+    --color-orange-dark: #cd6200;
+
+    --color-pink: #f3d8d7;
+    --color-pink-dark: #f23171;
+    --color-red: #f35958;
+    --color-green: #1dbb99;
+    --color-yellow: #f8d053;
+    --color-violet: #1f3953;
+    --color-black: #000;
+
+    --color-bg-grey: #f2f2f2;
+    --color-bg-menu: #323237;
+    --color-bg-menu-dark: #444444;
+
+    --color-primary: #6d5eac;
+    --color-primary-dark: #5b4d91;
+    --color-secondary: #494949;
+    --color-secondary-dark: #353535;
+
+    --btn-color-text: var(--color-text);
+    --btn-color-bg: var(--color-grey-light);
+    --btn-color-bd: var(--btn-color-bg);
+    --btn-color-bg-hover: var(--color-grey-light);
+
+    --tf-heading: "Open Sans", sans-serif;
+    --tf-text: "Open Sans", sans-serif;
+    --tf-bold: "Open Sans", sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+    :root {
+        --font-xs: 11px;
+        --font-sm: 12px;
+        --font-md: 14px;
+        --font-lg: 16px;
+        --font-xl: 18px;
+        --font-xxl: 20px;
+
+        --dimen-xs: 5px;
+        --dimen-sm: 10px;
+        --dimen-md: 12px;
+        --dimen-lg: 16px;
+        --dimen-xl: 25px;
+        --dimen-xxl: 30px;
+
+        --input-width-sm: 100px;
+        --input-width-md: 150px;
+        --input-width-lg: 200px;
+    }
+}

@@ -1,0 +1,9 @@
+@import "~normalize.css/normalize.css";
+@import "./slices/variables.css";
+@import "./slices/reset.css";
+@import "./slices/grid.css";
+@import "./slices/form.css";
+@import "./slices/box.css";
+@import "./slices/spacing.css";
+@import "./slices/typo.css";
+@import "./slices/color.css";

@@ -1,0 +1,63 @@
+.white {
+    color: #fff;
+}
+
+.red {
+    color: var(--color-red) !important;
+}
+
+.muted {
+    color: var(--color-muted) !important;
+}
+
+.link {
+    color: var(--color-link) !important;
+}
+
+.link:visited {
+    color: var(--color-link-visited) !important;
+}
+
+.bg-grey {
+    background-color: var(--color-bg-grey) !important;
+}
+
+.bg-menu {
+    color: #fff;
+    background-color: var(--color-bg-menu) !important;
+}
+
+.bg-menu-dark {
+    color: #fff;
+    background-color: var(--color-bg-menu-dark) !important;
+}
+
+.bg-primary {
+    color: #fff;
+    background-color: var(--color-primary) !important;
+}
+
+.bg-red {
+    color: #fff;
+    background-color: var(--color-red) !important;
+}
+
+.bg-green {
+    color: #fff;
+    background-color: var(--color-green) !important;
+}
+
+.bg-blue {
+    color: #fff;
+    background-color: var(--color-blue) !important;
+}
+
+.bg-yellow {
+    color: #fff;
+    background-color: var(--color-yellow) !important;
+}
+
+.bg-violet {
+    color: #fff;
+    background-color: var(--color-violet) !important;
+}
