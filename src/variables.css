@@ -1,17 +1,31 @@
-:root {
-    --font-xs: 10px;
-    --font-sm: 12px;
-    --font-md: 16px;
-    --font-lg: 18px;
-    --font-xl: 22px;
-    --font-xxl: 30px;
+/**
+    Environment Variables
 
-    --dimen-xs: 4px;
-    --dimen-sm: 8px;
-    --dimen-md: 16px;
-    --dimen-lg: 22px;
-    --dimen-xl: 32px;
-    --dimen-xxl: 38px;
+    For Breakpoints:
+    BREAKPOINT-SM, BREAKPOINT-MD, BREAKPOINT-LG, BREAKPOINT-XL, BREAKPOINT-XXL
+*/
+
+:root {
+    --size-xs: 10px;
+    --size-sm: 12px;
+    --size-md: 16px;
+    --size-lg: 18px;
+    --size-xl: 22px;
+    --size-xxl: 30px;
+
+    --line-height-xs: 10px;
+    --line-height-sm: 12px;
+    --line-height-md: 16px;
+    --line-height-lg: 18px;
+    --line-height-xl: 22px;
+    --line-height-xxl: 30px;
+
+    --space-xs: 4px;
+    --space-sm: 8px;
+    --space-md: 16px;
+    --space-lg: 22px;
+    --space-xl: 32px;
+    --space-xxl: 38px;
 
     --height-header: 35px;
     --width-sidebar: 135px;
@@ -61,24 +75,32 @@
     --tf-bold: "Open Sans", sans-serif;
 }
 
-@media screen and (min-width: 768px) {
-    :root {
-        --font-xs: 11px;
-        --font-sm: 12px;
-        --font-md: 14px;
-        --font-lg: 16px;
-        --font-xl: 18px;
-        --font-xxl: 20px;
+@media screen and (min-width: env(BREAKPOINT-SM, 768px)) {
+    /* :root {
 
-        --dimen-xs: 5px;
-        --dimen-sm: 10px;
-        --dimen-md: 12px;
-        --dimen-lg: 16px;
-        --dimen-xl: 25px;
-        --dimen-xxl: 30px;
+    } */
+}
 
-        --input-width-sm: 100px;
-        --input-width-md: 150px;
-        --input-width-lg: 200px;
-    }
+@media screen and (min-width: env(BREAKPOINT-MD, 1024px)) {
+    /* :root {
+
+    } */
+}
+
+@media screen and (min-width: env(BREAKPOINT-LG, 1366px)) {
+    /* :root {
+
+    } */
+}
+
+@media screen and (min-width: env(BREAKPOINT-XL, 1600px)) {
+    /* :root {
+
+    } */
+}
+
+@media screen and (min-width: env(BREAKPOINT-XXL, 1920)) {
+    /* :root {
+
+    } */
 }

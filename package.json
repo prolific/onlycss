@@ -1,9 +1,12 @@
 {
-  "name": "justcss",
+  "name": "onlycss",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "style": "just.css",
+  "main": "only.css",
+  "style": "only.css",
+  "exports": {
+    "./": "./src/"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
