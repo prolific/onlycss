@@ -6,6 +6,7 @@
 */
 
 :root {
+    /* Font Sizes & Respective Line Heights */
     --size-xs: 10px;
     --size-sm: 12px;
     --size-md: 16px;
@@ -20,6 +21,7 @@
     --line-height-xl: 22px;
     --line-height-xxl: 30px;
 
+    /* Spaces/Distances/Dimens */
     --space-xs: 4px;
     --space-sm: 8px;
     --space-md: 16px;
@@ -27,52 +29,29 @@
     --space-xl: 32px;
     --space-xxl: 38px;
 
-    --height-header: 35px;
-    --width-sidebar: 135px;
+    /* Font Families */
+    --ff-default: "Open Sans", sans-serif;
+    --ff-alpha: "Open Sans", sans-serif;
+    --ff-beta: "Open Sans", sans-serif;
 
-    --color-link: #1616fc;
-    --color-link-visited: #5419a1;
-    --color-muted: #969696;
-    --color-error: #db1111;
-    --color-text: #131313;
-    --color-line: #e2e0dc;
-    --color-line-dark: #969696;
-
+    /* Colors */
     --color-white: #fff;
-    --color-white-dark: #fafafa;
-    --color-grey-light: #f0f0f0;
-    --color-grey: #f1f0f5;
-    --color-grey-dark: #434343;
-    --color-blue: #37b0e9;
-    --color-blue-dark: #262d33;
-    --color-orange: #f58b29;
-    --color-orange-dark: #cd6200;
+    --color-default-lighter: #131313;
+    --color-default: #131313;
+    --color-default-darker: #131313;
+    --color-alpha-lighter: #6d5eac;
+    --color-alpha: #6d5eac;
+    --color-alpha-darker: #6d5eac;
+    --color-beta-lighter: #f58b29;
+    --color-beta: #f58b29;
+    --color-beta-darker: #f58b29;
+    --color-gamma-lighter: #37b0e9;
+    --color-gamma: #37b0e9;
+    --color-gamma-darker: #37b0e9;
 
-    --color-pink: #f3d8d7;
-    --color-pink-dark: #f23171;
-    --color-red: #f35958;
-    --color-green: #1dbb99;
-    --color-yellow: #f8d053;
-    --color-violet: #1f3953;
-    --color-black: #000;
-
-    --color-bg-grey: #f2f2f2;
-    --color-bg-menu: #323237;
-    --color-bg-menu-dark: #444444;
-
-    --color-primary: #6d5eac;
-    --color-primary-dark: #5b4d91;
-    --color-secondary: #494949;
-    --color-secondary-dark: #353535;
-
-    --btn-color-text: var(--color-text);
-    --btn-color-bg: var(--color-grey-light);
-    --btn-color-bd: var(--btn-color-bg);
-    --btn-color-bg-hover: var(--color-grey-light);
-
-    --tf-heading: "Open Sans", sans-serif;
-    --tf-text: "Open Sans", sans-serif;
-    --tf-bold: "Open Sans", sans-serif;
+    /* Layout Specific Variables */
+    --header-height: 35px;
+    --sidebar-width: 135px;
 }
 
 @media screen and (min-width: env(BREAKPOINT-SM, 768px)) {

@@ -5,7 +5,7 @@
 }
 
 .grid.vertical {
-    flex-direction: cellumn;
+    flex-direction: column;
 }
 
 .grid.gutter-xs {

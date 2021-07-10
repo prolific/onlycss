@@ -1,63 +1,60 @@
-.white {
-    color: #fff;
+.default {
+    --color: var(--color-default);
+    --color-lighter: var(--color-default-lighter);
+    --color-darker: var(--color-default-darker);
 }
 
-.red {
-    color: var(--color-red) !important;
+.alpha {
+    --color: var(--color-alpha);
+    --color-lighter: var(--color-alpha-lighter);
+    --color-darker: var(--color-alpha-darker);
 }
 
-.muted {
-    color: var(--color-muted) !important;
+.beta {
+    --color: var(--color-beta);
+    --color-lighter: var(--color-beta-lighter);
+    --color-darker: var(--color-beta-darker);
 }
 
-.link {
-    color: var(--color-link) !important;
+.gamma {
+    --color: var(--color-gamma);
+    --color-lighter: var(--color-gamma-lighter);
+    --color-darker: var(--color-gamma-darker);
 }
 
-.link:visited {
-    color: var(--color-link-visited) !important;
+.lighter {
+    --color: var(--color-lighter);
 }
 
-.bg-grey {
-    background-color: var(--color-bg-grey) !important;
+.darker {
+    --color: var(--color-darker);
 }
 
-.bg-menu {
-    color: #fff;
-    background-color: var(--color-bg-menu) !important;
+.bg-alpha {
+    --color: var(--color-white);
+    --bgcolor: var(--color-alpha);
+    --bgcolor-lighter: var(--color-alpha-lighter);
+    --bgcolor-darker: var(--color-alpha-darker);
 }
 
-.bg-menu-dark {
-    color: #fff;
-    background-color: var(--color-bg-menu-dark) !important;
+.bg-beta {
+    --color: var(--color-white);
+    --bgcolor: var(--color-beta);
+    --bgcolor-lighter: var(--color-beta-lighter);
+    --bgcolor-darker: var(--color-beta-darker);
 }
 
-.bg-primary {
-    color: #fff;
-    background-color: var(--color-primary) !important;
+.bg-gamma {
+    --color: var(--color-white);
+    --bgcolor: var(--color-gamma);
+    --bgcolor-lighter: var(--color-gamma-lighter);
+    --bgcolor-darker: var(--color-gamma-darker);
 }
 
-.bg-red {
-    color: #fff;
-    background-color: var(--color-red) !important;
+.bg-lighter{
+    --bgcolor: var(--bgcolor-lighter);
 }
 
-.bg-green {
-    color: #fff;
-    background-color: var(--color-green) !important;
-}
-
-.bg-blue {
-    color: #fff;
-    background-color: var(--color-blue) !important;
-}
-
-.bg-yellow {
-    color: #fff;
-    background-color: var(--color-yellow) !important;
-}
-
-.bg-violet {
-    color: #fff;
-    background-color: var(--color-violet) !important;
+.bg-darker{
+    --bgcolor: var(--bgcolor-darker);
 }

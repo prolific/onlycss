@@ -5,11 +5,12 @@
     display: inline-block;
     letter-spacing: 1.6px;
     transition: all 0.2s;
-    color: var(--btn-color-text);
+    color: var(--color);
+    padding: var(--space);
     background-position: center;
-    background-color: var(--btn-color-bg);
-    border: 1px solid var(--btn-color-bd);
-    padding: var(--dimen-sm) var(--dimen-sm);
+    border-radius: var(--radius);
+    background-color: var(--bgcolor);
+    border: 1px solid var(--color);
 }
 
 .btn:focus {
@@ -19,11 +20,11 @@
 .btn:disabled {
     cursor: not-allowed;
     background-color: var(--color-grey);
-    border-color: var(--color-grey);
+    --color: var(--color-lighter);
 }
 
 .btn:disabled:hover {
-    background: var(--color-grey);
+    --color: var(--color-lighter);
 }
 
 .btn:hover {
@@ -47,18 +48,18 @@
 
 .input {
     width: 100%;
-    border-radius: 3px;
     letter-spacing: normal;
-    padding: var(--dimen-sm);
-    font-size: var(--font-md);
+    padding: var(--space);
+    font-size: var(--size);
+    border-radius: var(--radius);
     background-color: transparent;
-    border: 1px solid var(--color-grey);
+    border: 1px solid var(--color);
     transition: all 0.3s ease-in-out;
 }
 
 .input:focus {
     outline: none;
-    box-shadow: 0 0 5px var(--color-grey);
+    box-shadow: 0 0 5px var(--color);
 }
 
 textarea.input {
@@ -68,6 +69,7 @@ textarea.input {
 .radio, .checkbox{
     --size-checkbox: 15px;
     position: relative;
+    visibility: hidden;
     width: var(--size-checkbox);
     height: var(--size-checkbox);
 }
@@ -77,10 +79,15 @@ textarea.input {
     cursor: pointer;
     position: absolute;
     display: inline;
-    background-color: #000;
-    border: 1px solid #ff0000;
+    visibility: visible;
+    background-color: transparent;
+    border: 1px solid var(--color);
     width: var(--size-checkbox);
     height: var(--size-checkbox);
+}
+
+.checkbox:checked::before{
+    background-color: var(--color);
 }
 
 .checkbox:checked::after{
@@ -89,8 +96,9 @@ textarea.input {
     content: "";
     display: inline;
     position: absolute;
-    border-left: 2px solid yellow;
-    border-bottom: 2px solid yellow;
+    visibility: visible;
+    border-left: 2px solid var(--color-white);
+    border-bottom: 2px solid var(--color-white);
     height: calc(var(--size-checkbox)/3);
     width: calc(var(--size-checkbox)*2/3);
     transform: translate(-50%, -50%) rotate(-45deg);
@@ -102,7 +110,8 @@ textarea.input {
     content: "";
     display: inline;
     position: absolute;
-    background-color: yellow;
+    visibility: visible;
+    background-color: var(--color);
     transform: translate(-50%, -50%);
     height: calc(var(--size-checkbox)/3);
     width: calc(var(--size-checkbox)/3);

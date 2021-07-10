@@ -1,53 +1,43 @@
 .xs {
-    font-size: var(--size-xs) !important;
-    line-height: var(--size-xs);
-    --line-height: var(--line-height-xs);
+    --size: var(--size-xs);
+    --line-height-hold: var(--line-height-xs);
 }
 
 .sm {
-    font-size: var(--size-sm) !important;
-    line-height: var(--size-sm);
-    --line-height: var(--line-height-sm);
+    --size: var(--size-sm);
+    --line-height-hold: var(--line-height-sm);
 }
 
 .md {
-    font-family: var(--tf-heading);
-    font-size: var(--size-md) !important;
-    line-height: var(--size-md);
-    --line-height: var(--line-height-md);
+    --size: var(--size-md);
+    --line-height-hold: var(--line-height-md);
 }
 
 .lg {
-    font-family: var(--tf-heading);
-    font-size: var(--size-lg) !important;
-    line-height: var(--size-lg);
-    --line-height: var(--line-height-lg);
+    --size: var(--size-lg);
+    --line-height-hold: var(--line-height-lg);
 }
 
 .xl {
-    font-family: var(--tf-heading);
-    font-size: var(--size-xl) !important;
-    line-height: var(--size-xl);
-    --line-height: var(--line-height-xl);
+    --size: var(--size-xl);
+    --line-height-hold: var(--line-height-xl);
 }
 
 .xxl {
-    font-family: var(--tf-heading);
-    font-size: var(--size-xxl) !important;
-    line-height: var(--size-xxl);
-    --line-height: var(--line-height-xxl);
+    --size: var(--size-xxl);
+    --line-height-hold: var(--line-height-xxl);
 }
 
 .lh {
-    line-height: var(--line-height) !important;
+    --line-height: var(--line-height-hold);
 }
 
 .center {
-    text-align: center !important;
+    text-align: center;
 }
 
 .right {
-    text-align: right !important;
+    text-align: right;
 }
 
 .upper {
@@ -58,25 +48,18 @@
     text-transform: lowercase;
 }
 
-.bold {
-    font-weight: 700;
-    font-family: var(--tf-bold) !important;
-}
-
 .underline {
     text-decoration: underline;
 }
 
-@media screen and (max-width: 768px) {
-    .right-xs {
-        text-align: right !important;
-    }
+.regular {
+    font-weight: 400;
+}
 
-    .left-xs {
-        text-align: left !important;
-    }
+.bold {
+    font-weight: 500;
+}
 
-    .center-xs {
-        text-align: center !important;
-    }
+.bolder {
+    font-weight: 700;
 }
