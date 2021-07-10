@@ -1,54 +1,43 @@
-.grid {
+.mesh {
     --gap: 0;
     display: flex;
     flex-wrap: wrap;
+    gap: var(--gap);
 }
 
-.grid.vertical {
+.mesh.vertical {
     flex-direction: column;
 }
 
-.grid.gutter-xs {
-    --gap: calc(var(--dimen-xs) / 2);
+.mesh.gap-xs {
+    --gap: var(--space-xs);
 }
 
-.grid.gutter-sm {
-    --gap: calc(var(--dimen-sm) / 2);
+.mesh.gap-sm {
+    --gap: var(--space-sm);
 }
 
-.grid.gutter-md {
-    --gap: calc(var(--dimen-md) / 2);
+.mesh.gap-md {
+    --gap: var(--space-md);
 }
 
-.grid.gutter-lg {
-    --gap: calc(var(--dimen-lg) / 2);
+.mesh.gap-lg {
+    --gap: var(--space-lg);
 }
 
-.grid.gutter-xl {
-    --gap: calc(var(--dimen-xl) / 2);
+.mesh.gap-xl {
+    --gap: var(--space-xl);
 }
 
-.grid.gutter-xxl {
-    --gap: calc(var(--dimen-xxl) / 2);
+.mesh.gap-xxl {
+    --gap: var(--space-xxl);
 }
 
-.grid.gutter-between {
+.mesh.gap-between {
     justify-content: space-between;
 }
 
-.grid[class^="gutter-"],
-.grid[class*=" gutter-"] {
-    margin-left: calc(-1 * var(--gap)) !important;
-    margin-right: calc(-1 * var(--gap)) !important;
-    margin-bottom: calc(-1 * var(--gap) * 2) !important;
-}
-
-.grid[class^="gutter-"] > *,
-.grid[class*=" gutter-"] > * {
-    padding: 0 var(--gap) calc(var(--gap) * 2) var(--gap);
-}
-
-.grid > .grow {
+.mesh > .grow {
     flex: 1;
 }
 

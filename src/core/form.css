@@ -6,7 +6,8 @@
     letter-spacing: 1.6px;
     transition: all 0.2s;
     color: var(--color);
-    padding: var(--space);
+    /* TODO: Make padding dynamic based on font size */
+    padding: var(--space); 
     background-position: center;
     border-radius: var(--radius);
     background-color: var(--bgcolor);

@@ -4,7 +4,8 @@
         Do not change unless you know what you are doing.
     */
     --size: var(--size-md);
-    --line-height: var(--line-height-md);
+    --line-height: 1;
+    --line-height-full: var(--line-height-md);
     --font-family: var(--ff-default);
     --color: var(--color-default);
     --color-lighter: var(--color-default-lighter);
