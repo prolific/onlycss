@@ -1,7 +1,7 @@
 {
   "name": "onlycss",
   "version": "1.0.0",
-  "description": "",
+  "description": "Modern CSS framework built ONLY with pure css. No bullshit!",
   "main": "only.css",
   "style": "only.css",
   "exports": {
@@ -13,5 +13,15 @@
   "license": "MIT",
   "dependencies": {
     "normalize.css": "^8.0.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prolific/onlycss.git"
+  },
+  "author": "onlycss contributors - https://github.com/prolific/onlycss/graphs/contributors",
+  "bugs": {
+    "url": "https://github.com/prolific/onlycss/issues"
+  },
+  "homepage": "https://github.com/prolific/onlycss#readme"
 }
