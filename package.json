@@ -1,6 +1,6 @@
 {
   "name": "onlycss",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Modern CSS framework built ONLY with pure css. No bullshit!",
   "main": "only.css",
   "style": "only.css",
