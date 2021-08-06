@@ -11,17 +11,16 @@ npm install --save onlycss
 
 You can use any one of the below methods to import the core framework or any part of it.
 
-> 1. Import through Javascript
+> 1. Include directly into Javascript or CSS
 ```js
-import "~onlycss/variables.css";
 import "~onlycss/only.css";
 ```
 
-> 2. Import through CSS
-```css
-@import "~onlycss/variables.css";
-@import "~onlycss/only.css";
+> 2. Include into HTML via CDN
+```html
+<!-- Coming Soon -->
 ```
+
 ### Structure
 ```
 Sizes: xs, sm, md, lg, xl, xxl
@@ -39,8 +38,9 @@ Examples:
 |:------------- |:----------------------------------------------------------------------------- |
 | Modular       | Just import what you want.                                                    |
 | Flexbox Based | Isn't it normal? Yes, we also use flexbox. Everybody does.                    |
-| Customizable  | Only using pure css variables. We are not being **sass**y about it ;)           |
-
+| Customizable  | Only using pure css variables. We are not being **sass**y about it ;)         |
+| Responsive    | Statistically, most of today's traffic comes from mobile so it is important to build websites that look good everywhere. We follow the **mobile first** approach and our extensive use of variables allow you to customize css as per your needs based on media query.         |
+| CSS Knowledge| Not required but recommended. Don't be that guy.                               |
 
 ### Ideology
 

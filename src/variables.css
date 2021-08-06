@@ -36,18 +36,13 @@
 
     /* Colors */
     --color-white: #fff;
-    --color-default-lighter: #131313;
     --color-default: #131313;
-    --color-default-darker: #131313;
-    --color-alpha-lighter: #6d5eac;
     --color-alpha: #6d5eac;
-    --color-alpha-darker: #6d5eac;
-    --color-beta-lighter: #f58b29;
     --color-beta: #f58b29;
-    --color-beta-darker: #f58b29;
-    --color-gamma-lighter: #37b0e9;
     --color-gamma: #37b0e9;
-    --color-gamma-darker: #37b0e9;
+
+    /* General Configuration */
+    --container: 1600px;
 
     /* Layout Specific Variables */
     --header-height: 35px;

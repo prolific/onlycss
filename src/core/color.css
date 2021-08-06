@@ -1,60 +1,30 @@
 .default {
     --color: var(--color-default);
-    --color-lighter: var(--color-default-lighter);
-    --color-darker: var(--color-default-darker);
 }
 
 .alpha {
     --color: var(--color-alpha);
-    --color-lighter: var(--color-alpha-lighter);
-    --color-darker: var(--color-alpha-darker);
 }
 
 .beta {
     --color: var(--color-beta);
-    --color-lighter: var(--color-beta-lighter);
-    --color-darker: var(--color-beta-darker);
 }
 
 .gamma {
     --color: var(--color-gamma);
-    --color-lighter: var(--color-gamma-lighter);
-    --color-darker: var(--color-gamma-darker);
-}
-
-.lighter {
-    --color: var(--color-lighter);
-}
-
-.darker {
-    --color: var(--color-darker);
 }
 
 .bg-alpha {
     --color: var(--color-white);
     --bgcolor: var(--color-alpha);
-    --bgcolor-lighter: var(--color-alpha-lighter);
-    --bgcolor-darker: var(--color-alpha-darker);
 }
 
 .bg-beta {
     --color: var(--color-white);
     --bgcolor: var(--color-beta);
-    --bgcolor-lighter: var(--color-beta-lighter);
-    --bgcolor-darker: var(--color-beta-darker);
 }
 
 .bg-gamma {
     --color: var(--color-white);
     --bgcolor: var(--color-gamma);
-    --bgcolor-lighter: var(--color-gamma-lighter);
-    --bgcolor-darker: var(--color-gamma-darker);
-}
-
-.bg-lighter{
-    --bgcolor: var(--bgcolor-lighter);
-}
-
-.bg-darker{
-    --bgcolor: var(--bgcolor-darker);
 }

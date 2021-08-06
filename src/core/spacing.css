@@ -108,3 +108,65 @@
 .mt-xxl {
     margin-top: var(--space-xxl) !important;
 }
+
+.gap-max {
+    justify-content: space-between;
+}
+
+.gap-0 {
+    gap: 0 !important;
+}
+
+.gap-xs {
+    gap: var(--space-xs) !important;
+}
+
+.gap-sm {
+    gap: var(--space-sm) !important;
+}
+
+.gap-md {
+    --row-gap: var(--space-md);
+    --column-gap: var(--space-md);
+    gap: var(--space-md);
+}
+
+.gap-lg {
+    gap: var(--space-lg) !important;
+}
+
+.gap-xl {
+    gap: var(--space-xl) !important;
+}
+
+.gap-xxl {
+    gap: var(--space-xxl) !important;
+}
+
+.gapv-0 {
+    row-gap: 0 !important;
+}
+
+.gapv-xs {
+    row-gap: var(--space-xs) !important;
+}
+
+.gapv-sm {
+    row-gap: var(--space-sm) !important;
+}
+
+.gapv-md {
+    row-gap: var(--space-md) !important;
+}
+
+.gapv-lg {
+    row-gap: var(--space-lg) !important;
+}
+
+.gapv-xl {
+    row-gap: var(--space-xl) !important;
+}
+
+.gapv-xxl {
+    row-gap: var(--space-xxl) !important;
+}

@@ -8,8 +8,6 @@
     --line-height-full: var(--line-height-md);
     --font-family: var(--ff-default);
     --color: var(--color-default);
-    --color-lighter: var(--color-default-lighter);
-    --color-darker: var(--color-default-darker);
     --bgcolor: #fff;
     --space: var(--space-md);
     --radius: 2px;

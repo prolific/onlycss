@@ -1,0 +1,69 @@
+.mesh {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.vertical {
+    flex-direction: column;
+}
+
+.m-center {
+    justify-content: center;
+}
+
+.m-end {
+    justify-content: flex-end;
+}
+
+.c-center {
+    align-items: center;
+}
+
+.c-end {
+    align-items: flex-end;
+}
+
+.mesh > [class*="span-"]:not([class*="span-max"]) {
+    --gap: calc(var(--column-gap, 0px) * (1 - var(--span) / 12));
+    --width: calc(var(--span, 0) * 100% / 12);
+    flex-basis: calc(var(--width) - var(--gap));
+}
+
+.grid > [class*="span-"]{
+    grid-column-end: span var(--span);
+}
+
+.span-max { flex-grow: 1; }
+.span-1 { --span: 1; }
+.span-2 { --span: 2; }
+.span-3 { --span: 3; }
+.span-4 { --span: 4; }
+.span-5 { --span: 5; }
+.span-6 { --span: 6; }
+.span-7 { --span: 7; }
+.span-8 { --span: 8; }
+.span-9 { --span: 9; }
+.span-10 { --span: 10; }
+.span-11 { --span: 11; }
+.span-12 { --span: 12; }
+
+@media screen and (min-width: 576px) {
+    .bsm-span-max { flex-grow: 1; }
+    .bsm-span-1 { --span: 1; }
+    .bsm-span-2 { --span: 2; }
+    .bsm-span-3 { --span: 3; }
+    .bsm-span-4 { --span: 4; }
+    .bsm-span-5 { --span: 5; }
+    .bsm-span-6 { --span: 6; }
+    .bsm-span-7 { --span: 7; }
+    .bsm-span-8 { --span: 8; }
+    .bsm-span-9 { --span: 9; }
+    .bsm-span-10 { --span: 10; }
+    .bsm-span-11 { --span: 11; }
+    .bsm-span-12 { --span: 12; }
+}
