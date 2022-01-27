@@ -3,6 +3,10 @@
     flex-wrap: wrap;
 }
 
+.mesh.nowrap {
+    flex-wrap: nowrap;
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(12, 1fr);

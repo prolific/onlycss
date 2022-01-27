@@ -1,16 +1,19 @@
+.btn, .input {
+    font-size: var(--size);
+    transition: all 0.3s ease-in-out;
+    padding: 0 clamp(2px, 0.5*var(--size), 100px);
+    height: clamp(var(--size) + 2px, 2.5*var(--size), 100px);
+}
+
 .btn {
     cursor: pointer;
     text-align: center;
     display: inline-block;
-    letter-spacing: 1.6px;
-    transition: all 0.2s;
     color: var(--color);
-    /* TODO: Make padding dynamic based on font size */
-    padding: var(--space); 
+    letter-spacing: 1.6px;
     background-position: center;
-    border-radius: var(--radius);
     background-color: var(--bgcolor);
-    border: 1px solid var(--color);
+    border: 1px solid var(--bgcolor);
 }
 
 .btn:focus {
@@ -25,31 +28,27 @@
 }
 
 .btn:hover {
-    background: var(--btn-color-bg-hover)
-        radial-gradient(circle, transparent 1%, var(--btn-color-bg-hover) 1%)
+    background: var(--bgcolor)
+        radial-gradient(circle, transparent 1%, var(--bgcolor) 1%)
         center/15000%;
 }
 
 .btn:active {
     background-size: 100%;
+    filter: brightness(0.85);
     transition: background 0s;
-    background-color: var(--btn-color-bg);
 }
 
 .input {
     width: 100%;
     letter-spacing: normal;
-    padding: var(--space);
-    font-size: var(--size);
-    border-radius: var(--radius);
     background-color: transparent;
     border: 1px solid var(--color);
-    transition: all 0.3s ease-in-out;
 }
 
 .input:focus {
     outline: none;
-    box-shadow: 0 0 5px var(--color);
+    box-shadow: 0 0 1px var(--color);
 }
 
 textarea.input {
