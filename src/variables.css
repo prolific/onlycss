@@ -9,14 +9,14 @@
     /* Font Sizes & Respective Line Heights */
     --size-xs: 10px;
     --size-sm: 12px;
-    --size-md: 16px;
+    --size-md: 14px;
     --size-lg: 18px;
     --size-xl: 24px;
     --size-xxl: 32px;
 
     --line-height-xs: 10px;
     --line-height-sm: 12px;
-    --line-height-md: 16px;
+    --line-height-md: 14px;
     --line-height-lg: 18px;
     --line-height-xl: 22px;
     --line-height-xxl: 30px;
@@ -40,6 +40,7 @@
     --color-alpha: #6d5eac;
     --color-beta: #f58b29;
     --color-gamma: #37b0e9;
+    --color-separator: #e7e7e7;
 
     /* General Configuration */
     --container: 1366px;

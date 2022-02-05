@@ -7,3 +7,7 @@
 .rel {
     position: relative;
 }
+
+.sticky {
+    position: sticky;
+}

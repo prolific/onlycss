@@ -8,7 +8,7 @@
     --line-height-full: var(--line-height-md);
     --font-family: var(--ff-default);
     --color: var(--color-default);
-    --bgcolor: #fff;
+    --bgcolor: #efefef;
     --space: var(--space-md);
     --radius: 2px;
 }

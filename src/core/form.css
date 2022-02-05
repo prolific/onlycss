@@ -8,8 +8,8 @@
 .btn {
     cursor: pointer;
     text-align: center;
-    display: inline-block;
     color: var(--color);
+    display: inline-block;
     letter-spacing: 1.6px;
     background-position: center;
     background-color: var(--bgcolor);

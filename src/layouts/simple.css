@@ -2,9 +2,21 @@
     display: flex;
     min-height: 100%;
     flex-direction: column;
-    /* background-color: #000; */
 }
 
 #app > .page {
     flex-grow: 1;
+    margin-top: var(--header-height, 0);
+    margin-left: var(--sidebar-width, 0);
+}
+
+.page > .header-fixed {
+    top: 0;
+    right: 0;
+    z-index: 2;
+    position: fixed;
+    background-color: #fdfdfd;
+    left: var(--sidebar-width, 0);
+    height: var(--header-height);
+    border-bottom: 1px solid var(--color-line);
 }

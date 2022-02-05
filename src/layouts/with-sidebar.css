@@ -1,0 +1,13 @@
+@import "./simple.css";
+
+.sidebar {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    width: var(--sidebar-width);
+}
+
+.sidebar .sidebar-header {
+    height: var(--header-height);
+}
