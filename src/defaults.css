@@ -2,12 +2,15 @@
     /* 
         Site Defaults
         Do not change unless you know what you are doing.
+
+        Following are the parameters that can be customized for whole sub-html
     */
     --size: var(--size-md);
-    --line-height: 1;
-    --line-height-full: var(--line-height-md);
+    --lh: 1;
+    --lh-auto: 2.2;
+    --lh-spaced: var(--lh-md);
     --font-family: var(--ff-default);
-    --color: var(--color-default);
+    --color: var(--color-text);
     --bgcolor: #efefef;
     --space: var(--space-md);
     --radius: 2px;

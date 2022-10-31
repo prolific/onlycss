@@ -1,0 +1,31 @@
+.tooltip .body {
+    left: 0;
+    top: 100%;
+    margin-top: 8px;
+    display: none;
+    padding: 10px;
+    z-index: 1;
+    --color: #ececec;
+    width: max-content;
+    position: absolute;
+    border-radius: 5px;
+    background-color: #333333;
+    border: 1px solid #e4e4e4;
+}
+
+.tooltip .body:before {
+    top: -6px;
+    left: 4px;
+    content: "";
+    width: 0;
+    height: 0;
+    display: block;
+    position: absolute;
+    border-right: 7px solid transparent;
+    border-left: 7px solid transparent;
+    border-bottom: 7px solid #333333;
+}
+
+.tooltip:hover .body {
+    display: block;
+}

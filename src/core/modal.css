@@ -1,0 +1,16 @@
+.modal > .content {
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    max-height: 80%;
+    overflow-y: auto;
+    z-index: var(--z-modal);
+    background-color: #fff;
+    transform: translate(-50%, -50%);
+}
+
+.modal > .content > .close{
+    top: 10px;
+    right: 10px;
+    position: absolute;
+}

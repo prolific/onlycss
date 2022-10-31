@@ -11,3 +11,23 @@
 .sticky {
     position: sticky;
 }
+
+.backdrop {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: var(--z-backdrop);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.tag {
+    border-radius: 2px;
+    display: inline-block;
+    padding: clamp(2px, 0.3*var(--size), 100px) clamp(2px, 0.3*var(--size) + 2px, 100px);
+}
+
+.list.raw {
+    list-style-type: none;
+}

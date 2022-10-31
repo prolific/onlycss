@@ -14,17 +14,42 @@
     --color: var(--color-gamma);
 }
 
+.muted {
+    --color: var(--color-muted);
+}
+
 .bg-alpha {
     --color: var(--color-white);
     --bgcolor: var(--color-alpha);
+    background-color: var(--bgcolor);
 }
 
 .bg-beta {
     --color: var(--color-white);
     --bgcolor: var(--color-beta);
+    background-color: var(--bgcolor);
 }
 
 .bg-gamma {
     --color: var(--color-white);
     --bgcolor: var(--color-gamma);
+    background-color: var(--bgcolor);
+}
+
+.bg-red {
+    --color: var(--color-white);
+    --bgcolor: var(--color-red);
+    background-color: var(--bgcolor);
+}
+
+.bg-green {
+    --color: var(--color-white);
+    --bgcolor: var(--color-green);
+    background-color: var(--bgcolor);
+}
+
+.bg-yellow {
+    --color: var(--color-white);
+    --bgcolor: var(--color-yellow);
+    background-color: var(--bgcolor);
 }

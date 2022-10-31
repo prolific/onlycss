@@ -14,12 +14,12 @@
     --size-xl: 24px;
     --size-xxl: 32px;
 
-    --line-height-xs: 10px;
-    --line-height-sm: 12px;
-    --line-height-md: 14px;
-    --line-height-lg: 18px;
-    --line-height-xl: 22px;
-    --line-height-xxl: 30px;
+    /* --lh-xs: 10px;
+    --lh-sm: 12px;
+    --lh-md: 14px;
+    --lh-lg: 18px;
+    --lh-xl: 22px;
+    --lh-xxl: 30px; */
 
     /* Spaces/Distances/Dimens */
     --space-xs: 4px;
@@ -30,22 +30,36 @@
     --space-xxl: 38px;
 
     /* Font Families */
-    --ff-default: "Open Sans", sans-serif;
-    --ff-alpha: "Open Sans", sans-serif;
-    --ff-beta: "Open Sans", sans-serif;
+    --ff-default:  'Ubuntu', sans-serif;
+    --ff-alpha:  'Ubuntu', sans-serif;
+    --ff-beta:  'Ubuntu', sans-serif;
 
     /* Colors */
     --color-white: #fff;
-    --color-default: #131313;
+    --color-red: #f35958;
+    --color-green: #00a79a;
+    --color-yellow: #f8d053;
+
+    --color-default: #3e3e3e;
     --color-alpha: #6d5eac;
     --color-beta: #f58b29;
     --color-gamma: #37b0e9;
     --color-separator: #e7e7e7;
 
-    /* General Configuration */
-    --container: 1366px;
+    --color-line:#e7e7e7;
+    --color-link: #252e9d;
+    --color-input: #ededed;
+    --color-text: #242424;
+    --color-muted: #767676;
+
 
     /* Layout Specific Variables */
+    --z-header: 10;
+    --z-sidebar: 10;
+    --z-backdrop: 50;
+    --z-modal: 100;
+
+    --container: 1366px;
     --header-height: 35px;
     --sidebar-width: 135px;
 }

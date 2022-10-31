@@ -1,0 +1,8 @@
+.ico {
+    height: 1em;
+    display: inline-block;
+}
+
+svg.ico {
+    fill: currentColor;
+}

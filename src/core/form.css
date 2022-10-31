@@ -1,16 +1,27 @@
-.btn, .input {
-    font-size: var(--size);
-    transition: all 0.3s ease-in-out;
-    padding: 0 clamp(2px, 0.5*var(--size), 100px);
-    height: clamp(var(--size) + 2px, 2.5*var(--size), 100px);
+.link {
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    background: none;
+    display: inline-block;
+    --color: var(--color-link);
 }
+
+.btn, .input, .group > * {
+    --lh: 1;
+    transition: all 0.3s ease-in-out;
+    padding: clamp(2px, 0.4em, 100px) clamp(2px, 0.4em + 2px, 100px);
+}
+
+/* select.input {
+    height: calc(2*clamp(2px, 0.4em, 100px) + var(--lh)*var(--size));
+} */
 
 .btn {
     cursor: pointer;
     text-align: center;
-    color: var(--color);
     display: inline-block;
-    letter-spacing: 1.6px;
+    letter-spacing: 1px;
     background-position: center;
     background-color: var(--bgcolor);
     border: 1px solid var(--bgcolor);
@@ -39,20 +50,34 @@
     transition: background 0s;
 }
 
-.input {
+.input, .group {
     width: 100%;
     letter-spacing: normal;
     background-color: transparent;
-    border: 1px solid var(--color);
+    border: 1px solid var(--color-input);
 }
 
 .input:focus {
     outline: none;
-    box-shadow: 0 0 1px var(--color);
+    box-shadow: 0 0 1px var(--color-input);
+}
+
+.group {
+    padding: 0;
+    display: flex;
+}
+
+.group .input {
+    border: none;
+    flex-grow: 1;
+}
+
+.group > *:not(:last-child) {
+    border-right: 1px solid var(--color-input);
 }
 
 textarea.input {
-    line-height: var(--line-height);
+    line-height: var(--lh);
 }
 
 .radio, .checkbox{
@@ -70,13 +95,13 @@ textarea.input {
     display: inline;
     visibility: visible;
     background-color: transparent;
-    border: 1px solid var(--color);
+    border: 1px solid var(--color-input);
     width: var(--size-checkbox);
     height: var(--size-checkbox);
 }
 
 .checkbox:checked::before{
-    background-color: var(--color);
+    background-color: var(--color-input);
 }
 
 .checkbox:checked::after{
@@ -100,7 +125,7 @@ textarea.input {
     display: inline;
     position: absolute;
     visibility: visible;
-    background-color: var(--color);
+    background-color: var(--color-input);
     transform: translate(-50%, -50%);
     height: calc(var(--size-checkbox)/3);
     width: calc(var(--size-checkbox)/3);

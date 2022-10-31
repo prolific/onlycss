@@ -1,0 +1,16 @@
+.line,.bd {
+    border: 1px solid var(--color-line);
+}
+
+.line {
+    border-width: 0;
+    border-top-width: 1px;
+}
+
+.dashed {
+    border-style: dashed;
+}
+
+.dotted {
+    border-style: dotted;
+}

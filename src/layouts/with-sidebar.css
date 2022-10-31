@@ -5,9 +5,16 @@
     left: 0;
     bottom: 0;
     position: fixed;
+    overflow-y: auto;
+    z-index: var(--z-sidebar);
     width: var(--sidebar-width);
+    border-right: 1px solid var(--color-line);
 }
 
 .sidebar .sidebar-header {
     height: var(--header-height);
+}
+
+.sidebar a {
+    display: inline-block;
 }

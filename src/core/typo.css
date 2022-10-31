@@ -1,35 +1,39 @@
 .xs {
     --size: var(--size-xs);
-    --line-height-spaced: var(--line-height-xs);
+    --lh-spaced: var(--lh-xs);
 }
 
 .sm {
     --size: var(--size-sm);
-    --line-height-spaced: var(--line-height-sm);
+    --lh-spaced: var(--lh-sm);
 }
 
 .md {
     --size: var(--size-md);
-    --line-height-spaced: var(--line-height-md);
+    --lh-spaced: var(--lh-md);
 }
 
 .lg {
     --size: var(--size-lg);
-    --line-height-spaced: var(--line-height-lg);
+    --lh-spaced: var(--lh-lg);
 }
 
 .xl {
     --size: var(--size-xl);
-    --line-height-spaced: var(--line-height-xl);
+    --lh-spaced: var(--lh-xl);
 }
 
 .xxl {
     --size: var(--size-xxl);
-    --line-height-spaced: var(--line-height-xxl);
+    --lh-spaced: var(--lh-xxl);
 }
 
 .lh {
-    --line-height: var(--line-height-spaced);
+    --lh: var(--lh-spaced, var(--lh-auto));
+}
+
+.lh-nope {
+    --lh: 1;
 }
 
 .center {
@@ -62,4 +66,8 @@
 
 .bolder {
     font-weight: 700;
+}
+
+.nowrap:not(.mesh) {
+    width: max-content;
 }
