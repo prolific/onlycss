@@ -9,7 +9,6 @@
   "dependencies": {
     "normalize.css": "^8.0.1"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/prolific/onlycss.git"
