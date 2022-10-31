@@ -2,9 +2,6 @@
   "name": "onlycss",
   "version": "0.1.0",
   "description": "Modern CSS framework built ONLY with pure css. No bullshit!",
-  "main": "only.css",
-  "style": "./src/only.css",
-  "exports": "./src/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
