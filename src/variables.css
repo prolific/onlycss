@@ -64,32 +64,32 @@
     --sidebar-width: 135px;
 }
 
-@media screen and (min-width: env(BREAKPOINT-SM, 768px)) {
+/* @media screen and (min-width: env(BREAKPOINT-SM, 768px)) { */
     /* :root {
 
     } */
-}
+/* } */
 
-@media screen and (min-width: env(BREAKPOINT-MD, 1024px)) {
+/* @media screen and (min-width: env(BREAKPOINT-MD, 1024px)) { */
     /* :root {
 
     } */
-}
+/* } */
 
-@media screen and (min-width: env(BREAKPOINT-LG, 1366px)) {
+/* @media screen and (min-width: env(BREAKPOINT-LG, 1366px)) { */
     /* :root {
 
     } */
-}
+/* } */
 
-@media screen and (min-width: env(BREAKPOINT-XL, 1600px)) {
+/* @media screen and (min-width: env(BREAKPOINT-XL, 1600px)) { */
     /* :root {
 
     } */
-}
+/* } */
 
-@media screen and (min-width: env(BREAKPOINT-XXL, 1920)) {
+/* @media screen and (min-width: env(BREAKPOINT-XXL, 1920)) { */
     /* :root {
 
     } */
-}
+/* } */

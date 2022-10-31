@@ -1,4 +1,4 @@
-@import "~normalize.css/normalize.css";
+@import "npm:normalize.css/normalize.css";
 @import "./variables.css";
 @import "./defaults.css";
 @import "./core/reset.css";
